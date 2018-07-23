@@ -1,0 +1,18 @@
+.form-container{
+  height: 350px;
+  width: 400px;
+  border: 1px solid #eee;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+.form-control{
+  height: 30px;
+  width: 90%;
+  margin: 15px 17px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+.btn-signUp{
+  margin: 10px 135px;
+}
