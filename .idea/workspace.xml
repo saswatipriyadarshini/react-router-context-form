@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fa605e3-3f8f-409c-b6d0-a108de849cd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Links/Forms/Phone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Links/JSON/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Links/Forms/FormElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links/Forms/FormElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Links/Forms/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links/Forms/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Links/Forms/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Links/Forms/SignUp.js" afterDir="false" />
-    </list>
+    <list default="true" id="2fa605e3-3f8f-409c-b6d0-a108de849cd8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,7 +41,7 @@
             <entry file="file://$PROJECT_DIR$/src/Links/Forms/SignUp.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="390">
-                  <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+                  <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -265,12 +258,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532061527201</updated>
       <workItem from="1532061528626" duration="35610000" />
-      <workItem from="1532370716088" duration="10381000" />
+      <workItem from="1532370716088" duration="10593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45991000" />
+    <option name="totallyTimeSpent" value="46203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -490,7 +483,7 @@
     <entry file="file://$PROJECT_DIR$/src/Links/Forms/SignUp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
