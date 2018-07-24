@@ -6,7 +6,7 @@ body {
 ul{
   list-style-type: none;
 }
-ul li{
+ ul li{
   display: inline-block;
   margin: 0 10px;
   text-decoration: none;

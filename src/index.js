@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Links/App/App';
-import Home from './Links/Home/Home';
+import PersonInput from './Links/Home/PersonInput';
+import Person from './Links/Home/Person';
 import Parent from './Links/Practice/Practice';
 import Forms from './Links/Forms/SignUp';
 import Test from './Links/ToggleClass/Test';
@@ -16,7 +17,8 @@ ReactDOM.render(
     <div>
       <ul>
         <li><NavLink to='/App'>App</NavLink></li>
-        <li><NavLink to='/Home'>Home</NavLink></li>
+        <li><NavLink to='/Person'>Person</NavLink></li>
+        <li><NavLink to='/PersonInput'>PersonInput</NavLink></li>
         <li><NavLink to='/Practice'>Practice</NavLink></li>
         <li><NavLink to='/SignUp'>Sign Up</NavLink></li>
         <li><NavLink to='/Test'>Test</NavLink></li>
@@ -25,7 +27,8 @@ ReactDOM.render(
       <hr/>
 
       <Route exact path='/App' component={App} />
-      <Route path='/Home' component={Home} />
+      <Route path='/Person' component={Person} />
+      <Route path='/PersonInput' component={PersonInput} />
       <Route path='/Practice' component={Parent} />
       <Route path='/SignUp' component={Forms} />
       <Route path='/Test' component={Test} />
