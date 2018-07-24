@@ -1,6 +1,6 @@
 import React from 'react';
 
-function FormElement(prop){
+function PhoneElement(prop){
   return(
     <div>
       <label>{prop.name}</label>
@@ -15,5 +15,5 @@ function FormElement(prop){
   )
 }
 
-export default FormElement;
+export default PhoneElement;
 

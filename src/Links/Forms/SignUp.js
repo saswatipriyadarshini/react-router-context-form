@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import FormElement from './FormElement';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+// import PhoneElement from './Phone';
+import { Form } from 'reactstrap';
 import './SignUp.css';
 
 class Forms extends Component{
   render(){
     return(
+      <React.Fragment>
+        <h1>Sign Up</h1>
       <div className='form-container'>
         <Form>
           <FormElement
@@ -30,13 +33,23 @@ class Forms extends Component{
           inputname='password'
           type='password'
           placeholder="Type Your Password"
-          name='password'
+          name='Password'
           className='form-control'
           onChange=''
         />
+          <FormElement
+            inputname='password'
+            type='password'
+            placeholder="Type Your Password"
+            name='Confirm Password'
+            className='form-control'
+            onChange=''
+          />
+
           <button className='btn-signUp'>Sign Up</button>
         </Form>
       </div>
+      </React.Fragment>
     );
   }
 }
