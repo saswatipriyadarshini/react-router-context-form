@@ -3,8 +3,38 @@ import FormElement from './FormElement';
 // import PhoneElement from './Phone';
 import { Form } from 'reactstrap';
 import './SignUp.css';
+import FormValidator from '../../Links/Forms/SignUp';
 
 class Forms extends Component{
+  constructor(){
+    super();
+
+
+    this.state = {
+      user: {
+        name: '',
+        email: '',
+        password: '',
+        phone: ''
+      },
+      errors:{
+        name: '',
+        email:'',
+        password: '',
+        phone: ''
+      },
+      emailValid: false,
+      passwordValid: false,
+      formValid: false
+    }
+  }
+
+  handleUserInput(e){
+    const name = e.target.name;
+    const value = e.target.value;
+    this.setState({[name]: value});
+  }
+
   render(){
     return(
       <React.Fragment>
@@ -17,7 +47,8 @@ class Forms extends Component{
             placeholder="Enter Your Full Name"
             name='Full Name'
             className='form-control'
-            onChange=''
+            value = {this.state.email}
+            onChange={(event) => this.handleUserInput(event)}
           />
 
         <FormElement
@@ -45,8 +76,16 @@ class Forms extends Component{
             className='form-control'
             onChange=''
           />
+          <FormElement
+            inputname='phone number'
+            type='password'
+            placeholder="Enter Your Phone Number"
+            name='Phone Number'
+            className='form-control'
+            onChange=''
+          />
 
-          <button className='btn-signUp'>Sign Up</button>
+          <button disabled className='btn-signUp'>Sign Up</button>
         </Form>
       </div>
       </React.Fragment>

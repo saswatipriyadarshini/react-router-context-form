@@ -17,7 +17,7 @@
   cursor: pointer;
   box-shadow: 0 0 3px 6px rgba(230,219,151, 0.4);
 }
-button{
+.btn-test{
   height: 30px;
   width: 120px;
   border: 2px solid grey;

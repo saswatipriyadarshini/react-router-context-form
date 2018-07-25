@@ -9,7 +9,7 @@ function FormElement(prop){
         placeholder={prop.placeholder}
         name={prop.inputname}
         className={prop.className}
-        onChange={prop.changeHandler}
+        onChange={prop.valueChanged}
       />
     </div>
   )

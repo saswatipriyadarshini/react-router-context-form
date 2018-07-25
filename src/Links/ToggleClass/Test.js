@@ -44,7 +44,7 @@ class Test extends Component {
         <div className='bulb-container'>
           <div className={this.lightBulbClasses()}>
           </div>
-          <button onClick={this.toggleBulb}>{this.buttonText()}</button>
+          <button className="btn-test" onClick={this.toggleBulb}>{this.buttonText()}</button>
         </div>
       </React.Fragment>
     );
