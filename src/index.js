@@ -9,6 +9,7 @@ import Forms from './Links/Forms/SignUp';
 import Test from './Links/ToggleClass/Test';
 import myComponent from "./Links/States/thisState";
 import MemberList from "./Links/ComponentLifeCycle/LifeCycle";
+import TimeStamp from "./Links/ComponentLifeCycle/TimeStamp";
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 
@@ -25,6 +26,7 @@ ReactDOM.render(
         <li><NavLink to='/Test'>Test</NavLink></li>
         <li><NavLink to='/thisState'>State</NavLink></li>
         <li><NavLink to='/MemberList'>Member</NavLink></li>
+        <li><NavLink to='/TimeStamp'>Time</NavLink></li>
       </ul>
       <hr/>
 
@@ -36,6 +38,7 @@ ReactDOM.render(
       <Route path='/Test' component={Test} />
       <Route path='/thisState' component={myComponent} />
       <Route path='/MemberList' component={MemberList} />
+      <Route path='/TimeStamp' component={TimeStamp} />
     </div>
 
   </Router>
